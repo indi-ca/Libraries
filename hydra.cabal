@@ -13,7 +13,7 @@ name:                Hydra
 version:             0.1.0.0
 
 -- A short (one-line) description of the package.
-synopsis:            Hydra specific libraries
+synopsis:            Exploration
 
 -- A longer description of the package.
 -- description:         
@@ -49,11 +49,11 @@ build-type:          Simple
 cabal-version:       >=1.10
 
 
-library
-  -- Modules exported by the library.
-  -- exposed-modules:     
+executable Hydra
+  -- .hs or .lhs file containing the Main module.
+  main-is:             Main.hs
   
-  -- Modules included in this library but not exported.
+  -- Modules included in this executable, other than Main.
   -- other-modules:       
   
   -- LANGUAGE extensions used by modules in this package.
